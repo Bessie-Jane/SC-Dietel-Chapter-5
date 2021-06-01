@@ -9,21 +9,17 @@ public class OddOrEven {
 
     public void setNumber(int number) {
         this.number = number;
-
     }
 
     public int getNumber() {
         return number;
     }
 
-
     public boolean evenNumberChecker(int number) {
-//        boolean isEven = true;
         if( number % 2 == 0){
             return true;
         }else {
             return false;
         }
-
     }
 }
